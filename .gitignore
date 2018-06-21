@@ -1,12 +1,11 @@
-# Folders
+# Jekyll
 _site/
 .sass-cache/
-node_modules/
-
-# Jekyll
+.jekyll-cache/
 .jekyll-metadata
 
-# Logs
+# Node
+node_modules/
 logs
 *.log
 npm-debug.log*
