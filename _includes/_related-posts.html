@@ -1,0 +1,61 @@
+<div class="related-articles">
+    {% if site.posts.size > 1 %}
+        <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
+        <ul>
+
+        {% assign maxRelated = 5 %}
+        {% assign minCommonTags = 1 %}
+        {% assign maxRelatedCounter = 0 %}
+
+        {% for post in site.posts %}
+
+            {% assign sameTagCount = 0 %}
+
+            {% for tag in post.tags %}
+                {% if post.url != page.url %}
+                    {% if page.tags contains tag %}
+                        {% assign sameTagCount = sameTagCount | plus: 1 %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% if sameTagCount >= minCommonTags %}
+                {% assign stringOfRelatedURLs = stringOfRelatedURLs | append: post.url | append: ' ' %}
+                <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                {% if maxRelatedCounter >= maxRelated %}
+                    {% break %}
+                {% endif %}
+            {% endif %}
+
+        {% endfor %}
+
+        {% if maxRelatedCounter < maxRelated %}
+            {% if site.related_posts.size > 0 %}
+                {% assign arrayOfRelatedURLs = stringOfRelatedURLs | split: ' ' %}
+
+                {% for post in site.related_posts %}
+                    {% assign differentURL = true %}
+
+                    {% for relatedURL in arrayOfRelatedURLs %}
+                        {% if relatedURL == post.url %}
+                            {% assign differentURL = false %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if differentURL %}
+                        <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                        {% if maxRelatedCounter >= maxRelated %}
+                            {% break %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+
+        </ul>
+    {% endif %}
+    <hr />
+</div><!-- /.related-articles -->
