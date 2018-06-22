@@ -1,8 +1,8 @@
 ---
-title: Finally, I start a blog!
+title: Finally, I'm starting a blog!
 ---
 
-I remember it was December 2016 when I thought that I needed to make a blog so I would have a place where I could share my thoughts and experiences as a Software Engineer to the world. At that time, like most people out there, [WordPress](https://wordpress.org/) was the first thing that came to my mind when thinking about making a blog.
+I remember it was December 2016 when I thought that I needed to make a blog so I would have a place where I could share my thoughts and experiences as an engineer to the world. At that time, like most people out there, [WordPress](https://wordpress.org/) was the first thing that came to my mind when thinking about making a blog.
 
 So I went to [ThemeForest](https://themeforest.net/), trying to find a good theme for my blog. But then, the thought of having to deal with tons of things that I needed to set up before I could get my WordPress blog up and running, got me stopped and reconsidered my option. Well, I don't hate working with WordPress, but for my starter blog, it seems a bit overkill and expensive.
 
