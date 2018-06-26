@@ -318,6 +318,10 @@ $button-size: 1.5rem;
 	}
 }
 
+#disqus_thread {
+  margin-bottom: 1em;
+}
+
 /* Large feature header image */
 .image-wrap {
 	position: relative;
@@ -784,6 +788,11 @@ $button-size: 1.5rem;
 }
 #goog-wm-sb {
 	@extend .btn;
+}
+
+.content-navigation {
+  padding-left: 1.5em;
+  padding-bottom: 1em;
 }
 
 .PageNavigation {
