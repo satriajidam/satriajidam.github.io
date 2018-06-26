@@ -1,5 +1,5 @@
 ---
-title: Finally, I'm starting a blog!
+title: Finally, I'm Starting a Blog!
 ---
 
 I remember it was December 2016 when I thought that I needed to make a blog so I could share my thoughts and experiences as an engineer to the world. At that time, like most people out there, [WordPress](https://wordpress.org/) was the first thing that came to my mind when thinking about making a blog.
