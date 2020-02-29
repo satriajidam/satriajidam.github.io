@@ -10,7 +10,7 @@ image:
 
 I'm a [philomath](https://en.wikipedia.org/wiki/Philomath) and a software engineer from [Yogyakarta -- Indonesia](https://en.wikipedia.org/wiki/Yogyakarta) who loves Programming, The Web, DevOps, and is super passionate about [Cloud-Native Technologies](https://www.techradar.com/news/bigger-than-linux-the-rise-of-cloud-native).
 
-I started working on software development in 2012 while I was still a student at [Universitas Islam Indonesia](http://uii.ac.id/) studying IT major. I focus mainly on backend development, building web services and RESTful APIs for mobile and web applications. Nowadays I mostly program in Go and Ruby, but I have experience in Java, Scala, and PHP.
+I started working on software development in 2012 while I was still a student at [Universitas Islam Indonesia](http://uii.ac.id/) studying IT major. I focus mainly on backend development, building web services and RESTful APIs for mobile and web applications. Nowadays I mostly program in Go and Python, but I have experience in Java, Scala, and Ruby.
 
 In 2017, I discovered DevOps and instantly fell in love. Since then, I've been digging and learning everything about DevOps from skills to technologies necessary to implement it. Today, my daily works revolve around working with teams and organizations to integrate DevOps principles and practices into their daily work of development.
 
