@@ -1,5 +1,5 @@
 ---
-title: Require Shell Script to Be Run as Root
+title: Require Shell Script to be Run as Root
 tags: shell bash
 ---
 
